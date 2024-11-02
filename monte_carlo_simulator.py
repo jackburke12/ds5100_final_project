@@ -79,10 +79,6 @@ class Die:
         '''
         return self.face_weights
 
-# mydie = Die(np.array(['red','blue','green']))
-# mydie.change_face_weight('red',10)
-# print(mydie.roll_die(10))
-
 class Game:
     '''Represents a game played with multiple dice. Each die is rolled simultaneously for a specified
     number of rolls. The results are stored and can be presented in either a wide or narrow format.'''
