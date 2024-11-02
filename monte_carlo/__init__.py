@@ -1,3 +1,1 @@
-from monte_carlo_simulator import Die
-from monte_carlo_simulator import Game
-from monte_carlo_simulator import Analyzer
+from . monte_carlo_simulator import Die, Game, Analyzer
