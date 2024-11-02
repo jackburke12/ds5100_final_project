@@ -165,7 +165,6 @@ class Game
          
 
 class Analyzer
-         
     Used to analyze the results of a Game. It provides methods to calculate the number of jackpots,
     count occurrences of each face, and count combinations and permutations of the game results.
      
