@@ -208,22 +208,3 @@ class Analyzer:
         dataframe with multiindex of distinct permutations and a colum totaling each permutations' counts.
         '''
         return self.game.show_result().value_counts().to_frame()
-
-
-# die1 = Die(np.array([1,2,3,4,5,6]))
-# die2 = Die(np.array([1,2,3,4,5,6]))
-# newgame = Game([die1,die2])
-# newgame.play(5)
-# a1 = Analyzer(newgame)
-
-# print(a1.face_counts())
-# print(a1.face_counts().shape)
-
-die1 = Die(np.array([1,2,3,4,5,6]))
-newgame = Game([die1,die1])
-newgame.play(1000)
-
-a1 = Analyzer(newgame)
-combos = a1.combination_count()
-
-print(type(combos))
