@@ -78,6 +78,7 @@ print(a1.permutation_count())
 
 # API Description
 
+```
 class Die
     A class to create a die with customizable faces and weights. This die can be rolled, and each face has a weight 
     that affects the likelihood of it appearing in a roll. Faces can be strings or numbers, and weights can be positive 
