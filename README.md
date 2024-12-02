@@ -18,7 +18,7 @@ pip install .
 ```
 Once the package is installed, you can import the die, game and analyzer classes like so:
 ```
-from monte_carlo import Die, Game, Analyzer
+from monte_carlo.monte_carlo_simulator import Die, Game, Analyzer
 ```
 Use help() to view class descriptions and methods:
 ```
