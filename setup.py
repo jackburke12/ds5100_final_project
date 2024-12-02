@@ -7,7 +7,7 @@ setup(
     author = 'Jack Burke',
     author_email='jpb2uj@virginia.edu',
     description = 'Monte Carlo Simulator',
-    long_description= open('README.txt').read(),
+    long_description= open('README.md').read(),
     packages = ['monte_carlo'],
-    license='LICENSE.md',
+    license='LICENSE',
     install_requires=['numpy','pandas'])
