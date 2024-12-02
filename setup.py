@@ -9,5 +9,5 @@ setup(
     description = 'Monte Carlo Simulator',
     long_description= open('README.txt').read(),
     packages = ['monte_carlo'],
-    license='LICENSE.txt',
+    license='LICENSE.md',
     install_requires=['numpy','pandas'])
